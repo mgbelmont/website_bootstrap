@@ -1,0 +1,39 @@
+$color-grey: #d2d6db;
+$color-grey-light: #d2d6db;
+$color-grey-middle: #76808c;
+$color-grey-dark: #4d5760;
+$color-black: #08090a;
+$color-blue: #323ebe;
+$color-blue-boton-list: #3b49df;
+$color-white: #f9fafa;
+$color-fondo: #eef0f1;
+
+.bg-{
+  &grey{
+    background-color: $color-grey;
+  }
+  &grey-light{
+    background-color: $color-grey-light;
+  }
+  &grey-middle{
+    background-color: $color-grey-middle;
+  }
+  &grey-dark{
+    background-color: $color-grey-dark
+  }
+  &black{
+    background-color: $color-black;
+  }
+  &hover-blue{
+    background-color: $color-blue;
+  }
+  &blue-boton{
+    background-color: $color-blue-boton-list;
+  }
+  &white{
+    background-color: $color-white;
+  }
+  &fondo{
+    background-color: $color-fondo;
+  }
+}
