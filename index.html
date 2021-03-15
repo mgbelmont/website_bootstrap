@@ -15,16 +15,66 @@
 </head>
 
 <body>
+
+
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12">
-        <!--NAV-->
-        <h1>PONER NAV</h1>
+      
+      <!-- HEADER SECTION -->
+      <header class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="menu-left col-6">
+            <!-- Menu Hamburguesa -->
+            <button class="navbar-toggler  d-sm-block d-md-none mr-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Logo -->
+            <img class="logo" src="images/dev-black.png" />
+            <!-- Search -->
+            <form class="form-inline my-2 my-lg-0 search">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
 
-        <!--END NAV-->
-      </div>
-      <div class="col-4 col-md-4 col-lg-3 border bg-warning">
+          <div class="menu-right col-6 col-lg-4 offset-lg-2">
+            <button class="btn button-post">Write a post</button>
+            <img class="ico-search" src="images/single/icon-search.svg" alt="" srcset="" />
+            <img src="images/single/icon-connect.svg" alt="" srcset="" />
+            <img src="images/single/icon-notification.svg" alt="" srcset="" />
+            <img
+              class="ico-profile"
+              src="images/single/photo-profile.jpeg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </nav>
+      </header>
+
+
+      <div id="left-side" class="col-4 col-md-4 col-lg-3 border">
         <!--LEFT SIDE-->
+        <div class="collapse navbar-collapse d-md-block" id="navbarNav">
+          <div class="navbar-nav">
+            <div class="title d-inherit d-md-none">
+              <h2>DEV Community</h2>
+              <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="">X</span>
+              </button>
+            </div>
+
+            <ul>
+              <li class="nav-item active"><a href=""><img src="images/sidebar/ico1.png" /> Home <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a href=""><img src="images/sidebar/ico2.png" /> Reading List</a></li>
+              <li class="nav-item"><a href=""><img src="images/sidebar/ico3.png" /> Listings</a></li>
+              <li class="nav-item"><a href=""><img src="images/sidebar/ico4.png" /> Podcasts</a></li>
+              <li class="nav-item"><a href=""><img src="images/sidebar/ico5.png" /> Videos</a></li>
+              <li class="nav-item"><a href=""><img src="images/sidebar/ico6.png" /> Tags</a></li>
+              <li class="nav-item">More...</li>                
+            </ul>
+
+          </div>
+        </div>
         <!--END LEFT SIDE-->
       </div>
       <section class="col-12 col-md-8 col-lg-6" ><!--<section id="post-list" class="post-wrapper">-->
@@ -300,18 +350,22 @@
               </article>
 
             <!--</section>-->
+
           </div>
-          <!--END POST-->
         </div>
+
       </section>
       <div class="col-lg-3 d-none d-lg-block border bg-secondary p-3">
         <!--RIGHT SIDE-->
         <!--RIGHT SIDE-->
       </div>
 
+
     </div>
   </div>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
 </body>
 
 </html>
