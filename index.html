@@ -19,39 +19,62 @@
 
   <div class="container-fluid">
     <div class="row">
-      <header class="col-12">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="menu-left col-6">
-                <!-- Menu Hamburguesa -->
-                <button class="navbar-toggler  d-sm-block d-md-none mr-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Logo -->
-                <img class="logo" src="images/dev-black.png" />
-                <!-- Search -->
-                <form class="form-inline my-2 my-lg-0 search">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                </form>
-              </div>
 
-              <div class="menu-right col-6 col-lg-4 offset-lg-2">
-                <button class="btn button-post">Write a post</button>
-                <img class="ico-search" src="images/single/icon-search.svg" alt="" srcset="" />
-                <img src="images/single/icon-connect.svg" alt="" srcset="" />
-                <img src="images/single/icon-notification.svg" alt="" srcset="" />
-                <img
-                  class="ico-profile"
-                  src="images/single/photo-profile.jpeg"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-            </nav>
+      <!-- HEADER SECTION -->
+      <header class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="menu-left col-6">
+              <!-- Menu Hamburguesa -->
+              <button class="navbar-toggler  d-sm-block d-md-none mr-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Logo -->
+              <img class="logo" src="images/dev-black.png" />
+              <!-- Search -->
+              <form class="form-inline my-2 my-lg-0 search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+            </div>
+
+            <div class="menu-right col-6 col-lg-4 offset-lg-2">
+              <button class="btn button-post">Write a post</button>
+              <img class="ico-search" src="images/single/icon-search.svg" alt="" srcset="" />
+              <img src="images/single/icon-connect.svg" alt="" srcset="" />
+              <img src="images/single/icon-notification.svg" alt="" srcset="" />
+              <img
+                class="ico-profile"
+                src="images/single/photo-profile.jpeg"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </nav>
       </header>
 
   
-        <div class="col-4 col-md-4 col-lg-3 border bg-warning">
+        <div id="left-side" class="col-4 col-md-4 col-lg-3 border">
           <!--LEFT SIDE-->
+          <div class="collapse navbar-collapse d-md-block" id="navbarNav">
+            <div class="navbar-nav">
+              <div class="title d-inherit d-md-none">
+                <h2>DEV Community</h2>
+                <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="">X</span>
+                </button>
+              </div>
+
+              <ul>
+                <li class="nav-item active"><a href=""><img src="images/sidebar/ico1.png" /> Home <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a href=""><img src="images/sidebar/ico2.png" /> Reading List</a></li>
+                <li class="nav-item"><a href=""><img src="images/sidebar/ico3.png" /> Listings</a></li>
+                <li class="nav-item"><a href=""><img src="images/sidebar/ico4.png" /> Podcasts</a></li>
+                <li class="nav-item"><a href=""><img src="images/sidebar/ico5.png" /> Videos</a></li>
+                <li class="nav-item"><a href=""><img src="images/sidebar/ico6.png" /> Tags</a></li>
+                <li class="nav-item">More...</li>                
+              </ul>
+
+            </div>
+          </div>
           <!--END LEFT SIDE-->
         </div>
         <div class="col-12 col-md-8 col-lg-6">
@@ -73,10 +96,9 @@
 
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
 </body>
 
 </html>
