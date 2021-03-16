@@ -382,3 +382,70 @@ header {
     } /*card body*/
   } /*card*/
 } /***********END POST LIST***********/
+/*RIGHT SIDE*/
+    .card-side-right {
+      
+      cursor: pointer;    
+      & li:hover {
+        cursor: pointer;
+        background-color: white;
+        color: $color-blue;
+      }
+      & > div:hover:first-of-type {
+        color: $color-blue;
+      }
+      & li h6{
+      font-size: 14px;
+      color: $color-grey-middle;
+      line-height: 24px;
+      font-weight: normal;
+      }
+    
+    .button-new{
+      color: #fff;
+      background-color:$color-blue;
+    }
+    .badge{
+      font-size:84%!important;
+    }
+     .card-footer {
+      background-color: #F9FAFA!important;
+    }
+    .card-header{
+      background-color: #F9FAFA!important;
+      display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        align-items: baseline;
+        font-size: 18px;
+      span{
+        
+        color: $color-blue;
+        font-size: 14px;
+        
+      }
+    }
+  }
+  .btn-blue{
+    font-size: 16px !important;
+    color: #fff;
+    background-color: $color-blue-boton-list;
+    border-color: $color-blue-boton-list;
+    &:hover{
+      background-color: $color-blue;
+      border-color: $color-blue;
+      color: #fff;
+    }
+  }
+  .btn-grey{
+    font-size: 16px!important;
+    color: $color-black;
+    background-color: $color-grey-light;
+    border-color: $color-grey-light;
+    &:hover{
+      background-color: $color-grey-middle;
+      border-color: $color-grey-middle;
+      color: $color-black;
+    }
+  }
+    /*END RIGHT SIDE*/

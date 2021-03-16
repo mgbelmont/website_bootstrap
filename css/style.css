@@ -504,4 +504,86 @@ header .navbar .menu-right img:hover {
 }
 
 /***********END POST LIST***********/
+/*RIGHT SIDE*/
+.card-side-right {
+  cursor: pointer;
+}
+
+.card-side-right li:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #323ebe;
+}
+
+.card-side-right > div:hover:first-of-type {
+  color: #323ebe;
+}
+
+.card-side-right li h6 {
+  font-size: 14px;
+  color: #76808c;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.card-side-right .button-new {
+  color: #fff;
+  background-color: #323ebe;
+}
+
+.card-side-right .badge {
+  font-size: 84% !important;
+}
+
+.card-side-right .card-footer {
+  background-color: #F9FAFA !important;
+}
+
+.card-side-right .card-header {
+  background-color: #F9FAFA !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  font-size: 18px;
+}
+
+.card-side-right .card-header span {
+  color: #323ebe;
+  font-size: 14px;
+}
+
+.btn-blue {
+  font-size: 16px !important;
+  color: #fff;
+  background-color: #3b49df;
+  border-color: #3b49df;
+}
+
+.btn-blue:hover {
+  background-color: #323ebe;
+  border-color: #323ebe;
+  color: #fff;
+}
+
+.btn-grey {
+  font-size: 16px !important;
+  color: #08090a;
+  background-color: #d2d6db;
+  border-color: #d2d6db;
+}
+
+.btn-grey:hover {
+  background-color: #76808c;
+  border-color: #76808c;
+  color: #08090a;
+}
+
+/*END RIGHT SIDE*/
 /*# sourceMappingURL=style.css.map */
