@@ -215,6 +215,7 @@ header .navbar .menu-right img:hover {
 @media screen and (min-width: 768px) {
   #left-side #navbarNav {
     position: inherit;
+    height: auto;
     background: transparent;
   }
 }
@@ -278,6 +279,33 @@ header .navbar .menu-right img:hover {
 #left-side #navbarNav .navbar-nav ul {
   padding: 1rem 0;
   list-style: none;
+}
+
+#left-side #navbarNav .navbar-nav ul li {
+  padding: 3px 0px;
+}
+
+#left-side #navbarNav .navbar-nav ul li:last-of-type {
+  padding: 8px 40px;
+}
+
+#left-side #navbarNav .navbar-nav ul li:hover {
+  cursor: pointer;
+  background-color: #d2d6db;
+  border-radius: 4px;
+}
+
+#left-side #navbarNav .navbar-nav ul li:hover a {
+  color: #3b49df;
+}
+
+#left-side #navbarNav .navbar-nav ul li a {
+  color: #4d5760;
+}
+
+#left-side .side-banner h2 {
+  text-align: center;
+  color: #3b49df;
 }
 
 #post-list {

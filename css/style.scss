@@ -171,6 +171,7 @@ header {
     z-index: 2;
     @media screen and (min-width: 768px) {
       position: inherit;
+      height: auto;
       background: transparent;
     }
     .navbar-nav {
@@ -211,7 +212,31 @@ header {
       ul {
         padding: 1rem 0;
         list-style: none;
+        li{
+          padding: 3px 0px;
+          &:last-of-type{
+            padding: 8px 40px;
+          }
+          &:hover{
+            cursor: pointer;
+            background-color: $color-grey-light;
+            border-radius: 4px;
+            a{
+              color: $color-blue-boton-list;
+            }
+            
+          }
+          a{
+            color: $color-grey-dark;
+          }
+        }
       }
+    }
+  }
+  .side-banner{
+    h2{
+      text-align: center;
+      color: $color-blue-boton-list;
     }
   }
 }
