@@ -190,6 +190,14 @@ header .navbar .menu-right img:hover {
   background-color: #eef0f1;
 }
 
+.cont-wrapp {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #left-side {
   background-color: #eef0f1;
 }
