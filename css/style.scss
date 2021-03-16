@@ -8,37 +8,40 @@ $color-blue-boton-list: #3b49df;
 $color-white: #f9fafa;
 $color-fondo: #eef0f1;
 
-.bg-{
-  &grey{
+.bg- {
+  &grey {
     background-color: $color-grey;
   }
-  &grey-light{
+  &grey-light {
     background-color: $color-grey-light;
   }
-  &grey-middle{
+  &grey-middle {
     background-color: $color-grey-middle;
   }
-  &grey-dark{
-    background-color: $color-grey-dark
+  &grey-dark {
+    background-color: $color-grey-dark;
   }
-  &black{
+  &black {
     background-color: $color-black;
   }
-  &hover-blue{
+  &hover-blue {
     background-color: $color-blue;
   }
-  &blue-boton{
+  &blue-boton {
     background-color: $color-blue-boton-list;
   }
-  &white{
+  &white {
     background-color: $color-white;
   }
-  &fondo{
+  &fondo {
     background-color: $color-fondo;
   }
 }
 
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
   color: inherit;
 }
@@ -71,7 +74,6 @@ header {
       align-items: center;
       width: 100%;
       .menu {
-
         .menu-wrapper {
           background-color: white;
           height: 100%;
@@ -92,7 +94,7 @@ header {
         @media screen and (min-width: 768px) {
           display: inherit;
         }
-        input{
+        input {
           font-size: 12pt;
           padding: 0 6px;
           width: 100%;
@@ -147,9 +149,13 @@ header {
   }
 }
 
-#left-side{
-  background-color: #EEF0F1;
-  #navbarNav{
+.container-fluid {
+  background-color: #eef0f1;
+}
+
+#left-side {
+  background-color: #eef0f1;
+  #navbarNav {
     position: fixed;
     background: rgba(0, 0, 0, 0.3);
     height: 100%;
@@ -157,18 +163,18 @@ header {
     top: 0;
     left: 0;
     z-index: 2;
-    @media screen and (min-width:768px) {
+    @media screen and (min-width: 768px) {
       position: inherit;
       background: transparent;
     }
-    .navbar-nav{
+    .navbar-nav {
       background-color: white;
       height: 100%;
       width: 50vw;
       max-width: 300px;
       margin: 0;
       padding: 1rem;
-      @media screen and (min-width:768px) {
+      @media screen and (min-width: 768px) {
         background: transparent;
       }
       .title {
@@ -196,7 +202,7 @@ header {
           }
         }
       }
-      ul{
+      ul {
         padding: 1rem 0;
         list-style: none;
       }
@@ -204,17 +210,17 @@ header {
   }
 }
 
-#post-list{
+#post-list {
   h1 {
     font-size: 1.14rem;
   }
 
   a:link,
   a:visited,
-  a:active,a:focus {
-      text-decoration: none;
-      color: $color-black;
-      
+  a:active,
+  a:focus {
+    text-decoration: none;
+    color: $color-black;
   }
   select {
     line-height: 1.5;
@@ -235,11 +241,11 @@ header {
       &:hover {
         background: rgba(59, 73, 223, 0.1);
         cursor: pointer;
-        .nav-link{
+        .nav-link {
           color: rgb(59, 73, 223);
           &:hover {
             color: $color-blue-boton-list;
-          } 
+          }
         }
       }
 
@@ -257,30 +263,29 @@ header {
       }
     }
   }
-  .card{
+  .card {
     h2 {
       font-size: 1.25rem;
-      a{
+      a {
         &:hover {
           color: $color-blue-boton-list;
         }
       }
-      
     }
     .feature {
       font-size: 1.5rem;
     }
-    .card-body{
+    .card-body {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      
+
       .autor {
         display: flex;
         align-items: center;
-        margin-bottom: .75rem;
+        margin-bottom: 0.75rem;
         /*padding: 10px;}*/
-        .ico-profile{
+        .ico-profile {
           width: 32px;
           height: 32px;
         }
@@ -304,7 +309,7 @@ header {
         }
       }
       .tags {
-        margin-bottom: .75rem;
+        margin-bottom: 0.75rem;
         font-size: 0.875rem;
         display: inline-block;
         a:link,
@@ -362,13 +367,12 @@ header {
           }
         }
       }
-      
-      h2,.tags,.reacts {
+
+      h2,
+      .tags,
+      .reacts {
         padding-left: 40px;
       }
-      
-    } /*card body*/ 
-
-  }/*card*/
-
+    } /*card body*/
+  } /*card*/
 } /***********END POST LIST***********/

@@ -34,7 +34,10 @@
   background-color: #eef0f1;
 }
 
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
   color: inherit;
 }
@@ -183,8 +186,12 @@ header .navbar .menu-right img:hover {
   background-color: #d2d6db;
 }
 
+.container-fluid {
+  background-color: #eef0f1;
+}
+
 #left-side {
-  background-color: #EEF0F1;
+  background-color: #eef0f1;
 }
 
 #left-side #navbarNav {
@@ -275,7 +282,8 @@ header .navbar .menu-right img:hover {
 
 #post-list a:link,
 #post-list a:visited,
-#post-list a:active, #post-list a:focus {
+#post-list a:active,
+#post-list a:focus {
   text-decoration: none;
   color: #08090a;
 }
@@ -359,7 +367,7 @@ header .navbar .menu-right img:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
   /*padding: 10px;}*/
 }
 
@@ -398,7 +406,7 @@ header .navbar .menu-right img:hover {
 }
 
 #post-list .card .card-body .tags {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
   font-size: 0.875rem;
   display: inline-block;
 }
@@ -481,7 +489,9 @@ header .navbar .menu-right img:hover {
   cursor: pointer;
 }
 
-#post-list .card .card-body h2, #post-list .card .card-body .tags, #post-list .card .card-body .reacts {
+#post-list .card .card-body h2,
+#post-list .card .card-body .tags,
+#post-list .card .card-body .reacts {
   padding-left: 40px;
 }
 
