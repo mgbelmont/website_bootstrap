@@ -100,4 +100,8 @@
   -webkit-filter: invert(21%) sepia(78%) saturate(2571%) hue-rotate(227deg) brightness(101%) contrast(87%);
           filter: invert(21%) sepia(78%) saturate(2571%) hue-rotate(227deg) brightness(101%) contrast(87%);
 }
+
+#left-side .menu-inner-post li:hover:nth-child(4) div {
+  background-color: #e6e8e9;
+}
 /*# sourceMappingURL=interior.css.map */

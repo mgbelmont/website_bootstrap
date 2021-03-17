@@ -1,26 +1,26 @@
 /*SIDE RIGHT*/
-.profile{
+.profile {
   background-color: #922180 !important;
 }
-.ico-profile2{
+.ico-profile2 {
   width: 50px;
   height: 50px;
   margin-top: -65px;
 }
-.card-title{
-  span{
+.card-title {
+  span {
     text-align: center;
   }
 }
 .card-title-sec {
-          font-weight: bold;
-          font-size: 12px;
-          color: #4d5760;
+  font-weight: bold;
+  font-size: 12px;
+  color: #4d5760;
 }
-.font-blue{
-  color:#323ebe;
+.font-blue {
+  color: #323ebe;
 }
-.text-profile{
+.text-profile {
   font-size: 20px;
 }
 /*END SIDE RIGHT*/
@@ -79,6 +79,7 @@
         }
         &:nth-child(4) {
           div {
+            background-color: #e6e8e9;
           }
         }
       }

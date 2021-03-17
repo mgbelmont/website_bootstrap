@@ -748,6 +748,7 @@ footer .footer-wrapper .footer-txt1 {
           align-items: center;
   font-size: 10pt;
   text-align: center;
+  margin-top: 16px;
 }
 
 footer .footer-wrapper .footer-txt1 p:nth-child(2) {
