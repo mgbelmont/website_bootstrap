@@ -565,11 +565,11 @@ header .navbar .menu-right img:hover {
 }
 
 .card-side-right .card-footer {
-  background-color: #f9fafa !important;
+  background-color: white !important;
 }
 
 .card-side-right .card-header {
-  background-color: #f9fafa !important;
+  background-color: white !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
