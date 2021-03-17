@@ -1,15 +1,31 @@
 /**/
 #post-list .card .card-body {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+}
+
+#post-list .card .card-body h1 {
+  font-size: 1.75em;
+  /*padding-left:0;*/
+  font-weight: 700;
+}
+
+#post-list .card .card-body h2 a {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+#post-list .card .card-body p {
+  font-size: 1.5rem;
+  line-height: 1.5;
   font-weight: 400;
 }
 
 #post-list .card .card-body .tags {
-  padding: 0;
+  /*padding: 0;*/
 }
 
 #post-list .card .card-body .tags a {
-  margin-right: 0.5rem;
+  /*margin-right: 0.5rem;*/
 }
 
 #post-list .card .card-body .tags a:nth-of-type(1) {
@@ -47,6 +63,10 @@
   margin-top: -65px;
 }
 
+.ico-profile2:hover {
+  cursor: pointer;
+}
+
 .card-title span {
   text-align: center;
 }
@@ -61,8 +81,19 @@
   color: #323ebe;
 }
 
+.font-blue:hover {
+  cursor: pointer;
+}
+
 .text-profile {
+  position: absolute;
+  margin: -18px 8px;
   font-size: 20px;
+}
+
+.text-profile:hover {
+  cursor: pointer;
+  color: #323ebe;
 }
 
 /*END SIDE RIGHT*/
@@ -143,15 +174,28 @@
   background-color: #e6e8e9;
 }
 
-@media only screen and (min-width: 768px) {
-  #post-list h2.feature {
-    font-size: 36px;
+/*
+@include media-breakpoint-up(md) {  
+  #post-list {
+    .card{
+      .feature{ 
+        a{
+          font-size: 36px!important;  
+        }
+      }
+    }
+  } 
+}
+@include media-breakpoint-up(lg) { 
+  #post-list {
+    .card{
+      .feature{
+        a{
+          font-size: 40px;
+        }
+      }
+    }
   }
 }
-
-@media only screen and (min-width: 1024px) {
-  #post-list .feature a {
-    font-size: 40px;
-  }
-}
+*/
 /*# sourceMappingURL=interior.css.map */

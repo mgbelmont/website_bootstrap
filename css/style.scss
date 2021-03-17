@@ -30,7 +30,7 @@ $color-fondo: #eef0f1;
   &blue-boton {
     background-color: $color-blue-boton-list;
   }
-  &white {
+  &white1 {
     background-color: $color-white !important;
   }
   &fondo {
@@ -453,10 +453,10 @@ header {
     font-size: 84% !important;
   }
   .card-footer {
-    background-color: white !important;
+    background-color: $color-white !important;
   }
-  .card-header {
-    background-color: white !important;
+  .text-order {
+    background-color: $color-white !important;
     display: flex;
     justify-content: space-between;
     font-weight: bold;
@@ -467,6 +467,12 @@ header {
       font-size: 14px;
     }
   }
+  /*list-group-item{
+    background-color: #f9fafa!important;
+  }*/
+}
+.text-profile-from{
+  font-size: 20px;
 }
 .btn-blue {
   font-size: 16px !important;
