@@ -403,11 +403,7 @@ header {
         }
       }
 
-      h2,
-      .tags,
-      .reacts {
-        padding-left: 40px;
-      }
+      
     } /*card body*/
   } /*card*/
 } /***********END POST LIST***********/
@@ -556,3 +552,38 @@ footer {
     }
   }
 }
+/*TABLET*/
+@media only screen and (min-width: 768px) {
+  #post-list {
+    .section-title {
+      h1 {
+        font-size: 1.25rem;
+      }
+    }  
+    .card{
+      h2 {
+        font-size: 1.5rem;
+      }
+      .feature {
+        font-size: 1.875rem;
+      }
+      h2,
+      .tags,
+      .reacts {
+        padding-left: 40px;
+      }
+      
+      .reacts {
+        .react-left{
+          .react-text {
+            display: block;
+          }
+        } 
+      }
+    }    
+    
+  }    
+}
+
+
+

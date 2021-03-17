@@ -530,12 +530,6 @@ header .navbar .menu-right img:hover {
   cursor: pointer;
 }
 
-#post-list .card .card-body h2,
-#post-list .card .card-body .tags,
-#post-list .card .card-body .reacts {
-  padding-left: 40px;
-}
-
 /***********END POST LIST***********/
 /*RIGHT SIDE*/
 .card-side-right {
@@ -736,5 +730,26 @@ footer .footer-wrapper .footer-txt1 {
 
 footer .footer-wrapper .footer-txt1 p:nth-child(2) {
   margin-bottom: 0;
+}
+
+/*TABLET*/
+@media only screen and (min-width: 768px) {
+  #post-list .section-title h1 {
+    font-size: 1.25rem;
+  }
+  #post-list .card h2 {
+    font-size: 1.5rem;
+  }
+  #post-list .card .feature {
+    font-size: 1.875rem;
+  }
+  #post-list .card h2,
+  #post-list .card .tags,
+  #post-list .card .reacts {
+    padding-left: 40px;
+  }
+  #post-list .card .reacts .react-left .react-text {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
