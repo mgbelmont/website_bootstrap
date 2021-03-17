@@ -57,10 +57,9 @@ header {
   display: flex;
   justify-content: space-between;
   border: 1px solid #ccc;
-  padding: 0px;
+  padding: 8px;
   z-index: 1;
   @media screen and (min-width: 768px) {
-    padding: 8px;
     align-items: baseline;
     border-bottom: 1px solid #ccc;
   }
