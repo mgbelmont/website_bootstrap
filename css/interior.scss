@@ -5,7 +5,7 @@
 .ico-profile2{
   width: 50px;
   height: 50px;
-  margin-top: -45px;
+  margin-top: -65px;
 }
 .card-title{
   span{
@@ -17,18 +17,11 @@
           font-size: 12px;
           color: #4d5760;
 }
-.card{
-  ul{
-    list-style: none;
-    
-  }
-   .work-hover {
-          color: #3b49df;
-          cursor: pointer;
-        }
-        .opacity {
-          opacity: 0.5;
-        }
+.font-blue{
+  color:#323ebe;
+}
+.text-profile{
+  font-size: 20px;
 }
 /*END SIDE RIGHT*/
 #left-side {
