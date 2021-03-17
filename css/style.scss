@@ -31,7 +31,7 @@ $color-fondo: #eef0f1;
     background-color: $color-blue-boton-list;
   }
   &white {
-    background-color: $color-white;
+    background-color: $color-white !important;
   }
   &fondo {
     background-color: $color-fondo;

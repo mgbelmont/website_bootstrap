@@ -27,7 +27,7 @@
 }
 
 .bg-white {
-  background-color: #f9fafa;
+  background-color: #f9fafa !important;
 }
 
 .bg-fondo {
