@@ -78,6 +78,7 @@ header .navbar {
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
+  padding: 0;
   /*NAV BAR LEFT SIDE*/
   /*NAV BAR - RIGHT SIDE*/
 }
