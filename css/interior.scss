@@ -2,10 +2,11 @@
 #post-list{
   .card {
     .card-body {
+      
       font-size: 1.5rem;
      
       h1{
-        font-size: 1.75em;
+        font-size: 1.25em;
         /*padding-left:0;*/
         font-weight: 700;
       }
@@ -13,13 +14,14 @@
         font-size: 1.5em;
         font-weight: 700;
       }
-      p{
-        font-size: 1.5rem;
-        line-height: 1.5;
-        font-weight: 400;
+
+      .autor-name div:nth-child(2) {
+        margin-left: 1.5rem;
       }
+                 
       .tags {
-        /*padding: 0;*/
+        padding: 0;
+        
 
         a {
           /*margin-right: 0.5rem;*/
@@ -44,8 +46,67 @@
             padding: 0.25rem 0.5rem;
           }
         }
+      }
+      .article-content{
+        p{
+          font-size: 1.5rem;
+          line-height: 1.5;
+          font-weight: 400;
+        }
+        h2 a {
+          font-size: 1.5em;
+          font-weight: 700;
+        }
       }  
     }
+    .discussion-title{
+      button {
+        
+        color: #363d44;
+        border: 1px solid #d2d6db;
+        background-color: white;
+        font-size: 1rem;
+        padding: 6px 14px;
+        border-radius: 5px;
+      }
+    }
+    .discussion-body {
+      
+      .discussion-comment {
+        a:link,
+        a:visited,
+        a:active {
+          text-decoration: none;
+          color: #64707d;
+        }
+        border: 1px solid #ccc;
+        border-radius: 0.25rem;
+        padding: 1rem;
+        margin-left: 0.5rem;
+      }
+      .ico-profile{
+        width: 32px;
+        height: 32px;
+      }
+    }
+    .code-conduct {  
+      font-size: 0.85rem;
+      a:link,
+      a:visited,
+      a:active {
+        text-decoration: none;
+        color: #64707d;
+        margin: 0 0.5rem;
+      }
+    }
+    .next-article{
+      .ico-profile{
+        width: 64px;
+        height: 64px;
+        margin-right: 1rem;
+      }
+    }
+    
   }
 }
 /*SIDE RIGHT*/
@@ -138,7 +199,7 @@
 }
 
 
-@include media-breakpoint-up(md) {  
+@media only screen and (min-width: 768px) {   
   #post-list {
     .card{
       .feature{ 
@@ -149,7 +210,7 @@
     }
   } 
 }
-@include media-breakpoint-up(lg) { 
+@media screen and (min-width: 1024px) {
   #post-list {
     .card{
       .feature{

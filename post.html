@@ -69,7 +69,7 @@
 
         <!--END LEFT SIDE-->
       </section>
-      <section class="col-12 col-md-11 col-lg-8" id="post-list">
+      <section class="col-12 col-md-11 col-lg-8 pt-3" id="post-list">
         <div class="row">
           <!--POST-->
           <article class="card mb-3">
@@ -91,10 +91,10 @@
               <div class="autor">
                 <img class="rounded-circle border border-secondary ico-profile"
                 src="images/single/photo-profile.jpeg" />
-                <div class="autor-name">
+                <div class="autor-name flex-row align-items-center">
                   <div>Laurie</div>  
                   <div>
-                    <time datetime="2021-03-01T14:40:00Z" class="date-no-year" title="lunes, 1 de marzo de 2021 8:40:00">1 mar</time>
+                    <time datetime="2021-03-01T14:40:00Z" class="date-no-year" title="lunes, 1 de marzo de 2021 8:40:00">1 mar&nbsp;</time>
   
                     <em>
                       Originally published at
@@ -285,14 +285,14 @@
 
             </div>
           </article>
-          <article class="card mb-3">
-            <div class="discussion-title">
+          <article class="card p-3 mb-3">
+            <div class="discussion-title d-flex justify-content-between align-items-center mb-3">
               <h2>Discussion <span >(1)</span> </h2>
               <button>Suscribe</button>
             </div>
-            <div class="card-body">
+            <div class="discussion-body d-flex">
               <div> 
-                  <img class="ico-profile" src="images/single/user3.webp" />
+                  <img class="ico-profile rounded-circle border border-secondary" src="images/single/user3.webp" />
               </div>
               <div class="discussion-comment">
                   <div class="">
@@ -321,8 +321,9 @@
                   <p>I am intrigued by the "inline SVGs can be expensive", my old site is about as heavy as you can get on SVG (all inline) and doesn't suffer on initial render even with a 4x CPU slowdown (although all my floating squares and the "train smoke" do kill performance 🤣), obviously if there is something I am missing here I would love to know to add it to my bag of "avoid doing this" tricks, is it particular filters or something that are best avoided? (it could be that because I ran them all through SVG OMG to optimise them i don't see issues?)</p>
 
                   </p>The only other thing is to add that when running a performance trace you should set the network to "Fast 3G" and the CPU to "4x Slowdown" in the settings (cog top right below the "menu 3 dots" to show settings) in order to catch long running tasks, layout shifts, LCP times etc. that Lighthouse would pick up for mobile audits as those are pretty similar to the settings Lighthouse uses to throttle your connection and CPU for the mobile test).</p> 
-              </div>    
-              <div class="reacts">
+              </div>
+            </div>      
+            <div class="reacts pl-5">
               <div class="react-left">
                 <a href="#">
                   <img src="images/single/reaction-heart.svg" />
@@ -337,24 +338,24 @@
                 
               </div>
             </div>
-            <div class="code-conduct">
+            <div class="code-conduct d-flex justify-content-center">
                 <a href="#" class="">Code of Conduct</a>
                 <span class="" role="presentation">•</span>
                 <a href="" class="">Report abuse</a>
             </div>   
           </article>
-          <article class="card mb-3">
+          <article class="card mb-3 w-100">
             <div class="card-body">
-              <h2 class="card-title">Read next</h2>
-              <div class="list-next" >
+              <h2 class="card-title pl-4">Read next</h2>
+              <div class="list-next pl-4" >
                 <a href="#" >
                 
-                  <div class="next-article">
+                  <div class="next-article d-flex align-items-center">
                     
-                    <img class="ico-profile"  loading="lazy" alt="kauresss profile image" src="images/single/user6.webp" />
+                    <img class="ico-profile rounded-circle border border-secondary"  loading="lazy" alt="kauresss profile image" src="images/single/user6.webp" />
                     
-                    <div>
-                      <h3>Getting paid less to do the same work on Upwork</h3>
+                    <div class="d-flex flex-column justify-content-center ">
+                      <h4 >Getting paid less to do the same work on Upwork</h4>
                       <p>
                         Kauress - <time datetime="2021-03-06T00:21:07Z">Mar  6</time>
                       </p>
@@ -363,12 +364,12 @@
                 
                 </a>
                 <a href="#" >
-                  <div class="next-article">
+                  <div class="next-article d-flex align-items-center">
                     <span>
-                      <img class="ico-profile"  loading="lazy" alt="bekbrace profile image"  src="images/single/user7.webp" />
+                      <img class="ico-profile rounded-circle border border-secondary"  loading="lazy" alt="bekbrace profile image"  src="images/single/user7.webp" />
                     </span>
-                    <div>
-                      <h3>Stripe for online payments</h3>
+                    <div  class="d-flex flex-column justify-content-center">
+                      <h4>Stripe for online payments</h4>
                       <p>
                         Bek Brace - <time datetime="2021-03-05T17:46:15Z">Mar  5</time>
                       </p>
@@ -376,12 +377,12 @@
                   </div>
                 </a>
                 <a href="#"  >
-                <div class="next-article">
+                <div class="next-article d-flex align-items-center">
                   
-                  <img class="ico-profile"  loading="lazy" alt="jackssonandrey profile image"  src="images/single/user8.webp" />
+                  <img class="ico-profile rounded-circle border border-secondary"  loading="lazy" alt="jackssonandrey profile image"  src="images/single/user8.webp" />
                   
-                  <div>
-                    <h3>Usando Docker e docker-composer no dia a dia</h3>
+                  <div  class="d-flex flex-column justify-content-center">
+                    <h4>Usando Docker e docker-composer no dia a dia</h4>
                     <p>
                       Andrey Araújo - <time datetime="2021-03-05T22:40:24Z">Mar  5</time>
                     </p>
@@ -389,12 +390,12 @@
                 </div>
                 </a>
                 <a href="#" >
-                  <div class="next-article">
+                  <div class="next-article d-flex align-items-center ">
                     
-                    <img class="ico-profile"  loading="lazy" alt="ilizette profile image" class="crayons-avatar__image"  src="images/single/user9.webp" />
+                    <img class="ico-profile rounded-circle border border-secondary"  loading="lazy" alt="ilizette profile image" class="crayons-avatar__image"  src="images/single/user9.webp" />
                     
-                    <div>
-                      <h3>Understanding useReducer in react</h3>
+                    <div  class="d-flex flex-column justify-content-center">
+                      <h4>Understanding useReducer in react</h4>
                       <p>
                         Elizabeth - <time datetime="2021-03-05T19:14:27Z">Mar  5</time>
                       </p>
