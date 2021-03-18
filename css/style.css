@@ -209,6 +209,10 @@ header .navbar .menu-left .search input {
   color: #41484f;
 }
 
+header .navbar .menu-left .navbar-toggler {
+  border: none;
+}
+
 header .navbar .menu-right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -576,6 +580,10 @@ header .navbar .menu-right img:hover {
   color: #76808c;
   line-height: 24px;
   font-weight: normal;
+}
+
+.card-side-right .list-group-item {
+  margin-bottom: 1px;
 }
 
 .card-side-right .button-new {

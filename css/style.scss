@@ -163,6 +163,9 @@ header {
           color: #41484f;
         }
       }
+      .navbar-toggler{
+        border:none;
+      }
     }
     /*NAV BAR - RIGHT SIDE*/
     .menu-right {
@@ -443,6 +446,9 @@ header {
     color: $color-grey-middle;
     line-height: 24px;
     font-weight: normal;
+  }
+  .list-group-item{
+    margin-bottom: 1px;
   }
 
   .button-new {
