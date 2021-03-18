@@ -5,9 +5,9 @@
       
       font-size: 1.5rem;
      
-      h1{
+      h1 a{
         font-size: 1.25em;
-        /*padding-left:0;*/
+       
         font-weight: 700;
       }
       h2 a {
@@ -22,7 +22,6 @@
       .tags {
         padding: 0;
         
-
         a {
           /*margin-right: 0.5rem;*/
           &:nth-of-type(1) {
@@ -146,7 +145,9 @@
     color: #323ebe;
   }
 }
-
+.right-side-sticky{
+  align-self: flex-start;
+}
 /*END SIDE RIGHT*/
 #left-side {
   .menu-inner-post {

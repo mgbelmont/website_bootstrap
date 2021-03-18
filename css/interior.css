@@ -3,9 +3,14 @@
   font-size: 1.5rem;
 }
 
+<<<<<<< HEAD
 #post-list .card .card-body h1 {
   font-size: 1.25em;
   /*padding-left:0;*/
+=======
+#post-list .card .card-body h1 a {
+  font-size: 1.25em;
+>>>>>>> 66c3ead02f5773f3d5eeff2d8f9de5b8b504d9de
   font-weight: 700;
 }
 
@@ -149,6 +154,11 @@
 .text-profile:hover {
   cursor: pointer;
   color: #323ebe;
+}
+
+.right-side-sticky {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 /*END SIDE RIGHT*/
