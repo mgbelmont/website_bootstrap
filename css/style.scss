@@ -51,7 +51,7 @@ a:active {
 }
 
 header {
-  position: sticky;
+  position: sticky !important;
   top: 0;
   width: 100%;
   display: flex;
@@ -163,8 +163,8 @@ header {
           color: #41484f;
         }
       }
-      .navbar-toggler{
-        border:none;
+      .navbar-toggler {
+        border: none;
       }
     }
     /*NAV BAR - RIGHT SIDE*/
@@ -435,7 +435,7 @@ header {
   cursor: pointer;
   & li:hover {
     cursor: pointer;
-    background-color: white!important;
+    background-color: white !important;
     color: $color-blue;
   }
   & > div:hover:first-of-type {
@@ -447,7 +447,7 @@ header {
     line-height: 24px;
     font-weight: normal;
   }
-  .list-group-item{
+  .list-group-item {
     margin-bottom: 1px;
   }
 
@@ -460,7 +460,7 @@ header {
   }
   .card-footer {
     background-color: $color-white !important;
-    &:hover{
+    &:hover {
       color: $color-blue;
     }
   }
@@ -476,11 +476,11 @@ header {
       font-size: 14px;
     }
   }
-  ul li{
+  ul li {
     background-color: $color-white;
   }
 }
-.text-profile-from{
+.text-profile-from {
   font-size: 20px;
 }
 .btn-blue {

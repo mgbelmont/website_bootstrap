@@ -4,7 +4,7 @@
 }
 
 #post-list .card .card-body h1 {
-  font-size: 1.75em;
+  font-size: 1.25em;
   /*padding-left:0;*/
   font-weight: 700;
 }
@@ -14,14 +14,12 @@
   font-weight: 700;
 }
 
-#post-list .card .card-body p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-  font-weight: 400;
+#post-list .card .card-body .autor-name div:nth-child(2) {
+  margin-left: 1.5rem;
 }
 
 #post-list .card .card-body .tags {
-  /*padding: 0;*/
+  padding: 0;
 }
 
 #post-list .card .card-body .tags a {
@@ -231,28 +229,15 @@
   background-color: #e6e8e9;
 }
 
-/*
-@include media-breakpoint-up(md) {  
-  #post-list {
-    .card{
-      .feature{ 
-        a{
-          font-size: 36px!important;  
-        }
-      }
-    }
-  } 
-}
-@include media-breakpoint-up(lg) { 
-  #post-list {
-    .card{
-      .feature{
-        a{
-          font-size: 40px;
-        }
-      }
-    }
+@media only screen and (min-width: 768px) {
+  #post-list .card .feature a {
+    font-size: 36px !important;
   }
 }
-*/
+
+@media screen and (min-width: 1024px) {
+  #post-list .card .feature a {
+    font-size: 40px;
+  }
+}
 /*# sourceMappingURL=interior.css.map */
