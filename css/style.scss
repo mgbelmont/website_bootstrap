@@ -51,7 +51,7 @@ a:active {
 }
 
 header {
-  position: sticky !important;
+  position: sticky;
   top: 0;
   width: 100%;
   display: flex;
@@ -432,7 +432,6 @@ header {
 } /***********END POST LIST***********/
 /*RIGHT SIDE*/
 .card-side-right {
-
   cursor: pointer;
   & li:hover {
     cursor: pointer;

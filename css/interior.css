@@ -3,14 +3,9 @@
   font-size: 1.5rem;
 }
 
-<<<<<<< HEAD
-#post-list .card .card-body h1 {
+<<<<<<< HEAD #post-list .card .card-body h1 a {
   font-size: 1.25em;
   /*padding-left:0;*/
-=======
-#post-list .card .card-body h1 a {
-  font-size: 1.25em;
->>>>>>> 66c3ead02f5773f3d5eeff2d8f9de5b8b504d9de
   font-weight: 700;
 }
 
@@ -158,7 +153,7 @@
 
 .right-side-sticky {
   -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
 }
 
 /*END SIDE RIGHT*/
@@ -168,8 +163,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   list-style: none;
   padding: 0 15px;
 }
@@ -180,13 +175,13 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 10px 0;
   cursor: pointer;
 }
@@ -201,11 +196,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #left-side .menu-inner-post li:hover:nth-child(1) div {
@@ -213,8 +208,10 @@
 }
 
 #left-side .menu-inner-post li:hover:nth-child(1) img {
-  -webkit-filter: invert(27%) sepia(55%) saturate(2394%) hue-rotate(338deg) brightness(89%) contrast(120%);
-          filter: invert(27%) sepia(55%) saturate(2394%) hue-rotate(338deg) brightness(89%) contrast(120%);
+  -webkit-filter: invert(27%) sepia(55%) saturate(2394%) hue-rotate(338deg)
+    brightness(89%) contrast(120%);
+  filter: invert(27%) sepia(55%) saturate(2394%) hue-rotate(338deg)
+    brightness(89%) contrast(120%);
 }
 
 #left-side .menu-inner-post li:hover:nth-child(2) div {
@@ -222,8 +219,10 @@
 }
 
 #left-side .menu-inner-post li:hover:nth-child(2) img {
-  -webkit-filter: invert(45%) sepia(75%) saturate(363%) hue-rotate(128deg) brightness(96%) contrast(91%);
-          filter: invert(45%) sepia(75%) saturate(363%) hue-rotate(128deg) brightness(96%) contrast(91%);
+  -webkit-filter: invert(45%) sepia(75%) saturate(363%) hue-rotate(128deg)
+    brightness(96%) contrast(91%);
+  filter: invert(45%) sepia(75%) saturate(363%) hue-rotate(128deg)
+    brightness(96%) contrast(91%);
 }
 
 #left-side .menu-inner-post li:hover:nth-child(3) div {
@@ -231,8 +230,10 @@
 }
 
 #left-side .menu-inner-post li:hover:nth-child(3) img {
-  -webkit-filter: invert(21%) sepia(78%) saturate(2571%) hue-rotate(227deg) brightness(101%) contrast(87%);
-          filter: invert(21%) sepia(78%) saturate(2571%) hue-rotate(227deg) brightness(101%) contrast(87%);
+  -webkit-filter: invert(21%) sepia(78%) saturate(2571%) hue-rotate(227deg)
+    brightness(101%) contrast(87%);
+  filter: invert(21%) sepia(78%) saturate(2571%) hue-rotate(227deg)
+    brightness(101%) contrast(87%);
 }
 
 #left-side .menu-inner-post li:hover:nth-child(4) div {
