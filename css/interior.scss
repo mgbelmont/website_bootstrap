@@ -1,13 +1,12 @@
 /**/
-#post-list{
+#post-list {
   .card {
     .card-body {
-      
       font-size: 1.5rem;
-     
-      h1 a{
+
+      h1 a {
         font-size: 1.25em;
-       
+
         font-weight: 700;
       }
       h2 a {
@@ -18,10 +17,10 @@
       .autor-name div:nth-child(2) {
         margin-left: 1.5rem;
       }
-                 
+
       .tags {
         padding: 0;
-        
+
         a {
           /*margin-right: 0.5rem;*/
           &:nth-of-type(1) {
@@ -46,8 +45,8 @@
           }
         }
       }
-      .article-content{
-        p{
+      .article-content {
+        p {
           font-size: 1.5rem;
           line-height: 1.5;
           font-weight: 400;
@@ -56,11 +55,10 @@
           font-size: 1.5em;
           font-weight: 700;
         }
-      }  
+      }
     }
-    .discussion-title{
+    .discussion-title {
       button {
-        
         color: #363d44;
         border: 1px solid #d2d6db;
         background-color: white;
@@ -70,7 +68,6 @@
       }
     }
     .discussion-body {
-      
       .discussion-comment {
         a:link,
         a:visited,
@@ -83,12 +80,12 @@
         padding: 1rem;
         margin-left: 0.5rem;
       }
-      .ico-profile{
+      .ico-profile {
         width: 32px;
         height: 32px;
       }
     }
-    .code-conduct {  
+    .code-conduct {
       font-size: 0.85rem;
       a:link,
       a:visited,
@@ -98,14 +95,13 @@
         margin: 0 0.5rem;
       }
     }
-    .next-article{
-      .ico-profile{
+    .next-article {
+      .ico-profile {
         width: 64px;
         height: 64px;
         margin-right: 1rem;
       }
     }
-    
   }
 }
 /*SIDE RIGHT*/
@@ -116,7 +112,7 @@
   width: 50px;
   height: 50px;
   margin-top: -65px;
-  &:hover{
+  &:hover {
     cursor: pointer;
   }
 }
@@ -132,7 +128,7 @@
 }
 .font-blue {
   color: #323ebe;
-  &:hover{
+  &:hover {
     cursor: pointer;
   }
 }
@@ -140,13 +136,14 @@
   position: absolute;
   margin: -18px 8px;
   font-size: 20px;
-  &:hover{
+  &:hover {
     cursor: pointer;
     color: #323ebe;
   }
 }
-.right-side-sticky{
+.right-side-sticky {
   align-self: flex-start;
+  top: 50px !important;
 }
 /*END SIDE RIGHT*/
 #left-side {
@@ -212,23 +209,22 @@
   }
 }
 
-
-@media only screen and (min-width: 768px) {   
+@media only screen and (min-width: 768px) {
   #post-list {
-    .card{
-      .feature{ 
-        a{
-          font-size: 36px!important;  
+    .card {
+      .feature {
+        a {
+          font-size: 36px !important;
         }
       }
     }
-  } 
+  }
 }
 @media screen and (min-width: 1024px) {
   #post-list {
-    .card{
-      .feature{
-        a{
+    .card {
+      .feature {
+        a {
           font-size: 40px;
         }
       }
