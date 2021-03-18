@@ -560,14 +560,11 @@ header .navbar .menu-right img:hover {
 /*RIGHT SIDE*/
 .card-side-right {
   cursor: pointer;
-  /*list-group-item{
-    background-color: #f9fafa!important;
-  }*/
 }
 
 .card-side-right li:hover {
   cursor: pointer;
-  background-color: white;
+  background-color: white !important;
   color: #323ebe;
 }
 
@@ -599,6 +596,10 @@ header .navbar .menu-right img:hover {
   background-color: #f9fafa !important;
 }
 
+.card-side-right .card-footer:hover {
+  color: #323ebe;
+}
+
 .card-side-right .text-order {
   background-color: #f9fafa !important;
   display: -webkit-box;
@@ -617,6 +618,10 @@ header .navbar .menu-right img:hover {
 .card-side-right .text-order span {
   color: #323ebe;
   font-size: 14px;
+}
+
+.card-side-right ul li {
+  background-color: #f9fafa;
 }
 
 .text-profile-from {
